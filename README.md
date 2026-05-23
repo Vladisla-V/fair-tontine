@@ -8,7 +8,7 @@ Jupyter notebooks that price equitable participation rates (π) for mixed-cohort
 
 While looking for projects for a quant-focused portfolio, I came across tontines. At first glance they looked like a peculiar scheme: you benefit when others in the pool die. That shocked me at first and pushed me to read further.
 
-A deeper dive changed the picture. Modern tontine design is less about morbid speculation and more about pooling longevity risk efficiently. I discovered it to be a potential key to freeing up billions in pension funds reserves. 
+A deeper dive changed the picture. Modern tontine design is less about morbid speculation and more about pooling longevity risk efficiently. I discovered it to be a potential key to **freeing up billions in pension funds reserves.**
 ## What this project does
 
 This toolbox addresses a concrete problem from historical tontines: **unfairness when different ages and stake sizes share one pool**. It implements a **participation-rate (π) pricer** for a heterogeneous client base—who pays a premium or discount per share so that mixed cohorts can pool without discriminating by age or investment size.
