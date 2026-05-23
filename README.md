@@ -17,7 +17,7 @@ It also turns dense, math-heavy academic work into something you can **run, plot
 
 ## What I learned
 
-You should not dismiss an idea because of a bad first impression, or because it is old (tontines date to the 17th century). The useful question is whether the math and incentives still solve a real problem today. Retirement systems still do.
+You should not dismiss an idea because of a bad first impression, or because it is old (tontines date to the 17th century). The real question is whether the it can solve a real problem today.
 
 ## What makes it stand out
 
