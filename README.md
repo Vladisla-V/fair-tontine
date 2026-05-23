@@ -22,7 +22,7 @@ You should not dismiss an idea because of a bad first impression, or because it 
 ## What makes it stand out
 
 - **Niche but relevant** — few public repos walk through equitable mixed-cohort tontines end-to-end.
-- **Grounded in research** — built on peer-reviewed work (Milevsky & Salisbury, 2016), not a toy formula.
+- **Grounded in research** — built on peer-reviewed work (Milevsky & Salisbury, 2016).
 - **Portfolio-ready** — actuarial inputs (SSA mortality), optimization-style π solvers, Monte Carlo simulation, and sensitivity surfaces.
 - **Real-world angle** — the framework is the kind of structure pension innovators discuss when they talk about longevity pooling without full annuitization.
 
