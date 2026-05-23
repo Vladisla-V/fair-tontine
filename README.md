@@ -1,8 +1,31 @@
 # Fair Tontine Toolbox
 
-Jupyter notebooks for equitable mixed-cohort retirement tontines: participation-rate (π) solvers, outlier analysis, annuity comparisons, and mortality visualization.
+Jupyter notebooks that price equitable participation rates (π) for mixed-cohort retirement tontines, with visuals and simulations built on Milevsky & Salisbury (2016).
 
 **Disclaimer:** This project is for research and educational purposes only. It is not financial, investment, or actuarial advice.
+
+## Why I built this
+
+While looking for projects for a quant-focused portfolio, I came across tontines. At first glance they looked like an extraordinary scheme: you benefit when others in the pool die. That reaction is honest—and it pushed me to read further.
+
+A deeper dive changed the picture. Modern tontine design is less about morbid speculation and more about pooling longevity risk efficiently. Fair structures can reduce redundant capital held against uncertain lifespans—freeing reserves that pension systems otherwise keep locked away. That tension—intuitive discomfort versus actuarial elegance—is what made the topic worth building.
+
+## What this project does
+
+This toolbox addresses a concrete problem from historical tontines: **unfairness when different ages and stake sizes share one pool**. It implements a **participation-rate (π) pricer** for a heterogeneous client base—who pays a premium or discount per share so that mixed cohorts can pool without discriminating by age or investment size.
+
+It also turns dense, math-heavy academic work into something you can **run, plot, and stress-test** in notebooks—so the mechanics of equitable pooling are easier to grasp than from the paper alone.
+
+## What I learned
+
+You should not dismiss an idea because of a bad first impression, or because it is old (tontines date to the 17th century). The useful question is whether the math and incentives still solve a real problem today. Retirement systems still do.
+
+## What makes it stand out
+
+- **Niche but relevant** — few public repos walk through equitable mixed-cohort tontines end-to-end.
+- **Grounded in research** — built on peer-reviewed work (Milevsky & Salisbury, 2016), not a toy formula.
+- **Portfolio-ready** — actuarial inputs (SSA mortality), optimization-style π solvers, Monte Carlo simulation, and sensitivity surfaces.
+- **Real-world angle** — the framework is the kind of structure pension innovators discuss when they talk about longevity pooling without full annuitization.
 
 ## Requirements
 
@@ -17,12 +40,12 @@ Open Jupyter from the project root (imports assume the working directory is the 
 jupyter notebook
 ```
 
-Suggested order:
+Suggested notebook order:
 
-1. `TontineToolboxQXVisualizer.ipynb` — optional; sanity-check mortality tables
-2. `TontineToolboxMain.ipynb` — core π solvers and pool simulation
-3. `TontineToolboxOutlierMath.ipynb` — optional; replicate Milevsky & Salisbury outlier curves
-4. `TontineToolboxAnnuity.ipynb` — optional; fair annuity payout and pool volatility
+1. `TontineToolboxQXVisualizer.ipynb` — sanity-check mortality tables (empirical qx vs. Gompertz from the paper)
+2. `TontineToolboxAnnuity.ipynb` — fair annuity payouts and pool volatility (baseline before tontine mechanics)
+3. `TontineToolboxMain.ipynb` — core π solvers and pool simulation
+4. `TontineToolboxOutlierMath.ipynb` — replicate Milevsky & Salisbury outlier curves (optional, paper-focused)
 
 ## References
 
