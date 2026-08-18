@@ -4,6 +4,36 @@ Jupyter notebooks that price equitable participation rates (π) for mixed-cohort
 
 **Disclaimer:** This project is for research and educational purposes only. It is not financial, investment, or actuarial advice.
 
+## Example results
+
+Pre-rendered outputs from the notebooks. You can view them here without running anything.
+
+Survival-weighted present value of a $1 payout, ages 60–100, r = 0% (fair annual payout ≈ $0.046):
+
+![Actuarial PV of a $1 perpetuity](docs/plots/actuarial-pv-1-dollar-perpetuity.png)
+
+Annuity-pool Monte Carlo: surviving population and pool balance with ±3σ bands:
+
+![Annuity pool Monte Carlo](docs/plots/annuity-pool-monte-carlo.png)
+
+1σ of end balance vs start/end age (N = 500, r = 0%):
+
+<img src="docs/plots/annuity-volatility-surface.png" alt="Annuity volatility surface" width="700">
+
+Mixed 50- and 60-year-old cohorts (20,000 members): mean discounted cumulative payouts ±1σ:
+
+![20,000-member mixed cohort, cumulative payouts](docs/plots/mixed-cohort-50-60yo-20000-cumulative-payouts.png)
+
+Same pool: mean shares outstanding and payout rate d(t):
+
+![20,000-member mixed cohort, shares outstanding](docs/plots/mixed-cohort-50-60yo-20000-shares-outstanding.png)
+
+Same pool: conditional annual payout while alive ±1σ:
+
+![20,000-member mixed cohort, conditional payout](docs/plots/mixed-cohort-50-60yo-20000-conditional-payout.png)
+
+[Full plot gallery](docs/RESULTS.md)
+
 ## Why I built this
 
 While looking for projects for a quant-focused portfolio, I came across tontines. At first glance they looked like a peculiar scheme: you benefit when others in the pool die. That shocked me at first and pushed me to read further.
