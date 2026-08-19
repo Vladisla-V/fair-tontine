@@ -49,13 +49,6 @@ It also turns dense, math-heavy academic work into something you can **run, plot
 
 You should not dismiss an idea because of a bad first impression, or because it is old (tontines date to the 17th century). The real question is whether the it can solve a real problem today.
 
-## What makes it stand out
-
-- **Niche but relevant** — few public repos walk through equitable mixed-cohort tontines end-to-end.
-- **Grounded in research** — built on peer-reviewed work (Milevsky & Salisbury, 2016).
-- **Portfolio-ready** — actuarial inputs (SSA mortality), optimization-style π solvers, Monte Carlo simulation, and sensitivity surfaces.
-- **Real-world angle** — the framework is the kind of structure pension innovators discuss when they talk about longevity pooling without full annuitization.
-
 ## Requirements
 
 - Python 3.10+
